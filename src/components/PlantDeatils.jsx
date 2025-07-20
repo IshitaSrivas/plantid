@@ -11,14 +11,8 @@ function PlantDetails({name,uses,botanical_name,description,family }) {
       <img className="absolute left-[5vw] top-[3vh]" src={cloud} alt="cloud" />
       <div className="flex w-[90%] flex-col md:flex-row items-center md:items-start h-[90%] bg-[#F0F0F0] rounded-xl shadow-lg p-2 mx-auto">
         <div className="text-3xl font-extrabold text-[#02510B] mt-2">क्या आप जानते हैं?</div>
-        <div className="w-full h-[32%] md:w-2/5 md:h-[100%] flex justify-center items-center">
-          <img
-            src={"https://i.pinimg.com/736x/fa/d3/4a/fad34a707359c5c1bfe1a4461010b7a1.jpg"}
-            alt={name}
-            className="object-cover rounded-2xl w-[70%] h-[70%] md:h-[50%] border-4 border-[#0d5216] shadow-lg"
-          />
-        </div>
-        <div className="w-full h-[60%] justify-start md:w-3/5 md:h-[100%] flex flex-col md:justify-center items-center p-4">
+       
+        <div className="w-full h-[100%] justify-start md:w-3/5 md:h-[100%] flex flex-col md:justify-center items-center p-4">
           <h2 className="text-2xl font-extrabold mb-2 text-[#02510B]">{name}</h2>
            <p className="text-[#2e9e21] text-lg">Family: {family}</p>
           <p className="text-[#2e9e21] text-lg">Botanical Name: {botanical_name}</p>
