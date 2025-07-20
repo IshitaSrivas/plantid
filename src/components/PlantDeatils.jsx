@@ -12,7 +12,7 @@ function PlantDetails({name,uses,botanical_name,description,family }) {
       <div className="flex w-[90%] flex-col md:flex-row items-center md:items-start h-[90%] bg-[#F0F0F0] rounded-xl shadow-lg p-2 mx-auto">
         <div className="text-3xl font-extrabold text-[#02510B] mt-2">क्या आप जानते हैं?</div>
        
-        <div className="w-full h-[100%] justify-start md:w-3/5 md:h-[100%] flex flex-col md:justify-center items-center p-4">
+        <div className="w-full h-[100%] overflow-scroll justify-start md:w-3/5 md:h-[100%] flex flex-col md:justify-center items-center p-4">
           <h2 className="text-2xl font-extrabold mb-2 text-[#02510B]">{name}</h2>
            <p className="text-[#2e9e21] text-lg">Family: {family}</p>
           <p className="text-[#2e9e21] text-lg">Botanical Name: {botanical_name}</p>
